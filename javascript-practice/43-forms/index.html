@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forms</title>
+    <title>Form</title>
     <link href="style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
@@ -12,16 +12,18 @@
       <input type="text" name="name" /><br />
       <label>Hobbies:</label><br />
       <input type="checkbox" name="biking" value="biking" />Biking<br />
-      <input type="checkbox" name="skiing" value="skiing" />Skiing<br />
-      <input type="checkbox" name="diving" value="diving" />Diving<br />
-      <label for="color">Favorite Color:</label>
+      <input type="checkbox" name="hiking" value="biking" />Hiking<br />
+      <input type="checkbox" name="running" value="biking" />Running<br />
+      <label for="color">Favorite color:</label>
       <select name="color">
         <option>Red</option>
         <option>Blue</option>
         <option>Green</option>
       </select>
-      <input type="submit" name="submit" value="Submit" />
+      <input type="submit" name="submit" value="submit" />
     </form>
+
+    <div id="message" style="color: red"></div>
 
     <script src="test.js"></script>
   </body>
