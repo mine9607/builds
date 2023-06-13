@@ -151,4 +151,3 @@ console.log(string2);
 
 let result6 = String(50);
 console.log(result6, typeof result6);
-console.log(result6);
