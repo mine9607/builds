@@ -8,7 +8,7 @@ const Home = () => {
   //let name = "mario";
   //the setName function is what is used to update the state of the variable 'name'
   const [name, setName] = useState("mario");
-  const [age, setAge] = useState("37");
+  const [age, setAge] = useState("");
 
   //note - by default functiions are given access to event properties 'e' that allow additional functionality
   //onClick log message to the console and list event properties 'e'
